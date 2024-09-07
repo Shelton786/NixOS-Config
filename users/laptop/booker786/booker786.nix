@@ -30,7 +30,7 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    userName = "booker786";
+    userName = "Shelton786";
     userEmail = "1398473754@qq.com";
   };
 
