@@ -16,6 +16,7 @@
       hack-font
       jetbrains-mono
       ubuntu_font_family
+      unifont
     ];
 
     # 简单配置一下 fontconfig 字体顺序，以免 fallback 到不想要的字体

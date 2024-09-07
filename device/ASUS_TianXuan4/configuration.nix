@@ -20,7 +20,6 @@
         }
       '';
       extraConfig = ''
-        set theme=/grub/Huohuo_cn/theme.txt;
       '';
     };
     efi = {

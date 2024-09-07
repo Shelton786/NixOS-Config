@@ -1,4 +1,4 @@
 update:
 	nix flake update
-ASUS_TianXuan4_Rikki:
-	sudo nixos-rebuild switch --flake ./#ASUS_TianXuan4_Rikki
+ASUS_TianXuan4_Booker786:
+	sudo nixos-rebuild switch --flake ./#ASUS_TianXuan4_Booker786

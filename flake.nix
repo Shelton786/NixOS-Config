@@ -14,7 +14,7 @@
 
   outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }@inputs: {
     nixosConfigurations = {
-        "ASUS_TianXuan4_Rikki" = nixpkgs.lib.nixosSystem {
+        "ASUS_TianXuan4_Booker786" = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           specialArgs = { inherit inputs; }; # this is the important part
           modules = [
@@ -35,7 +35,7 @@
             # user env
             home-manager.nixosModules.home-manager
             ./library/home-manager
-            ./users/laptop/rikki
+            ./users/laptop/booker786
           ];
       };
     };

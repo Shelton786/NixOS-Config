@@ -1,8 +1,8 @@
 { config, pkgs, lib, ... }:
 
 {
-  home.username = "rikki";
-  home.homeDirectory = "/home/rikki";
+  home.username = "booker786";
+  home.homeDirectory = "/home/booker786";
   nixpkgs.config.allowUnfree = true;
   
   # 直接将当前文件夹的配置文件，链接到 Home 目录下的指定位置
@@ -30,8 +30,8 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    userName = "HenryZeng";
-    userEmail = "zengdeveloper@qq.com";
+    userName = "booker786";
+    userEmail = "1398473754@qq.com";
   };
 
   # 通过 home.packages 安装一些常用的软件
@@ -43,7 +43,6 @@
     gnome.gnome-software
   ]++[                        # User GUI Tools
     gimp
-    typora
   ]++[                        # Games
     hmcl
   ]++[                        # Web Browser
@@ -78,7 +77,7 @@
     shellAliases = {
       nixos-update = ''
         sudo systemctl stop nixos-rebuild-switch-to-configuration.service
-        sudo nixos-rebuild switch --flake /home/rikki/WorkSpace/Dev/NixOS-Config/#ASUS_TianXuan4_Rikki
+        sudo nixos-rebuild switch --flake /home/booker786/NixOS-Config/#ASUS_TianXuan4_Booker786
       '';
     };
   };
