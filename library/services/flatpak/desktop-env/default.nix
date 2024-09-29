@@ -10,5 +10,6 @@
     "com.qq.QQ"
     "com.tencent.WeChat"
     "com.tencent.wemeet"
+    "org.libreoffice.LibreOffice"
   ];
 }
