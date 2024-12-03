@@ -30,7 +30,9 @@
 
             # flatpak desktop env
             nix-flatpak.nixosModules.nix-flatpak
-            ./library/services/flatpak/desktop-env
+            ./library/services/flatpak/desktop-env'
+
+            ./library/services/virtualbox
 
             # user env
             home-manager.nixosModules.home-manager

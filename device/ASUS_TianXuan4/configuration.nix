@@ -87,7 +87,7 @@
       "https://mirrors.bfsu.edu.cn/nix-channels/store"
     ];
   };
-
+  
   system.stateVersion = "24.05";
 }
 
