@@ -23,11 +23,11 @@
     },
     "nix-flatpak": {
       "locked": {
-        "lastModified": 1732867134,
-        "narHash": "sha256-YGtFJ/4SE37evvHX+OkS2klRdHlO7HvovaaxR/yWuWg=",
+        "lastModified": 1733345341,
+        "narHash": "sha256-8S58zrdpzGhax6tmn1i+R3AA0N9DJMu5FQI8JkA0NNU=",
         "owner": "gmodena",
         "repo": "nix-flatpak",
-        "rev": "01ca2cbd9fb5c29d73fac327f5a9a2a1a222e218",
+        "rev": "ebb0be49fc381112ff37726c6dd6df4df2ef5a1b",
         "type": "github"
       },
       "original": {
@@ -38,8 +38,8 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1733059706,
-        "narHash": "sha256-l66cKDH6vQYed/tHCT/R5AjMce9UD3UzAF4uV10lusY=",
+        "lastModified": 1733265681,
+        "narHash": "sha256-D7DEfmwzyk0CIpFPGRYjBJoHtxL2YxwKXiwRyCCu5DI=",
         "type": "tarball",
         "url": "https://mirrors.ustc.edu.cn/nix-channels/nixos-24.05/nixexprs.tar.xz"
       },

@@ -20,7 +20,7 @@
         }
       '';
       extraConfig = ''
-        set theme=/Arknights_Dusk_3151/theme.txt;
+        set theme=/Arknights_Theresa/theme.txt;
       '';
     };
     efi = {
