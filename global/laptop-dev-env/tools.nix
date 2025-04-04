@@ -12,7 +12,7 @@
     gnumake
   ] ++ [                                    # Gnome
     # gnomeApps
-    gnome.gnome-tweaks
+    gnome-tweaks
 
     # gnomeExtensions
     gnomeExtensions.kimpanel

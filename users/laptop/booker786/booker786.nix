@@ -40,7 +40,7 @@
   home.packages = with pkgs;[ # User Cli Tools
     neofetch
   ]++[                        # Gnome pkgs
-    gnome.gnome-software
+    gnome-software
   ]++[                        # User GUI Tools
     gimp
   ]++[                        # Games
