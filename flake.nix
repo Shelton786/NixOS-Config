@@ -33,6 +33,7 @@
             ./library/services/flatpak/desktop-env
 
             ./library/services/virtualbox
+            ./library/services/docker
 
             # user env
             home-manager.nixosModules.home-manager
