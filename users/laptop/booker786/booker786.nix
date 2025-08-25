@@ -42,7 +42,7 @@
   ]++[                        # Gnome pkgs
     gnome-software
   ]++[                        # User GUI Tools
-    gimp
+    gimp3-with-plugins
   ]++[                        # Games
     hmcl
   ]++[                        # Web Browser
