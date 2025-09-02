@@ -26,7 +26,7 @@
             ./library/services/tailscale
 
             # desktop env
-            ./library/desktop-env/gnome
+            ./library/desktop-env/KDE
 
             # flatpak desktop env
             nix-flatpak.nixosModules.nix-flatpak
