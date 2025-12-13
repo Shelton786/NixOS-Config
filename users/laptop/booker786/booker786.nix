@@ -49,6 +49,7 @@
     firefox
   ]++[                        # editor
     vscode
+    jdk
     android-studio
   ]++[                        # Learn
     anki
