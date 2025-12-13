@@ -86,6 +86,6 @@
     ];
   };
   
-  system.stateVersion = "24.05";
+  system.stateVersion = "25.11";
 }
 

@@ -7,6 +7,7 @@
     packages = with pkgs; [
       nerd-fonts.fira-code
       noto-fonts
+      noto-fonts-color-emoji
       noto-fonts-cjk-sans
       noto-fonts-cjk-serif
       source-han-sans
@@ -15,7 +16,7 @@
       source-code-pro
       hack-font
       jetbrains-mono
-      ubuntu_font_family
+      ubuntu-classic
       unifont
     ];
 
