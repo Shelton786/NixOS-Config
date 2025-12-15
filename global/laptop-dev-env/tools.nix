@@ -10,6 +10,8 @@
     vlc
     emacs
     gnumake
+    jdk
+    maven
   ] ++ [                                    # Gnome
     # gnomeApps
     gnome-tweaks
