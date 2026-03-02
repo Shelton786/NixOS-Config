@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     supergfxctl # asus gfx
+    ntfs3g # ntfs support
   ];
 
   services.asusd = {
