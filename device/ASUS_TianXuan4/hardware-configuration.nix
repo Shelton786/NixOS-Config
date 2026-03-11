@@ -36,9 +36,15 @@
       fsType = "vfat";
       options = [ "fmask=0022" "dmask=0022" ];
     };
+  
+    fileSystems."/run/media/booker786/OS" = {
+    device = "/dev/nvme0n1p3";
+    fsType = "ntfs-3g";
+    options = [ "defaults" "noatime" "rw" "locale=zh_CN.UTF-8"];
+  };
 
   fileSystems."/run/media/booker786/书儿的移动数据库" = {
-    device = "/dev/nvme0n1p3";
+    device = "/dev/nvme1n1p3";
     fsType = "ntfs-3g";
     options = [ "defaults" "noatime" "rw" "locale=zh_CN.UTF-8"];
   };
