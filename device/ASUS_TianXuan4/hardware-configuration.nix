@@ -48,12 +48,6 @@
     fsType = "ntfs-3g";
     options = [ "defaults" "noatime" "rw" "locale=zh_CN.UTF-8"];
   };
-  
-  fileSystems."/run/media/booker786/蒋睿涵 十四岁生日礼物" = {
-    device = "/dev/sda1";
-    fsType = "ntfs-3g";
-    options = [ "defaults" "noatime" "rw" "locale=zh_CN.UTF-8" ];
-  };
 
   swapDevices =
     [ { device = "/dev/disk/by-uuid/064d2c88-0bfe-4c0d-a87a-063f1edbe861"; }
