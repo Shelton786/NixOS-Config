@@ -49,6 +49,9 @@
   ]++[                        # editor
     vscode
     android-studio
+  ]++[                        # Creative
+    gimp
+    gimpPlugins.gmic
   ]++[                        # Learn
     anki
   ];

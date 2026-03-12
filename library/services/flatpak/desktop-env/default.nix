@@ -11,6 +11,5 @@
     "com.tencent.WeChat"
     "com.tencent.wemeet"
     "org.libreoffice.LibreOffice"
-    "org.gimp.GIMP"
   ];
 }
