@@ -10,12 +10,18 @@
     nssmdns4 = true;
     openFirewall = true;
   };
+  
+  # IPP over USB（USB 打印机扫描必需）
+  services.ipp-usb.enable = true;
 
   # 打印机相关软件包
   environment.systemPackages = with pkgs; [
     cups
+    cups-filters
     gutenprint
     sane-airscan  # 如果打印机支持扫描功能
+    simple-scan      # 图形扫描
+    system-config-printer # 如果需要KDE图形界面配置打印机
   ];
 
   # 开放打印机端口
