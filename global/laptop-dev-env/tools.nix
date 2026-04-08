@@ -9,6 +9,7 @@
     curl
     vlc
     emacs
+    gcc
     gnumake
     jdk
     maven
