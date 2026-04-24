@@ -47,6 +47,7 @@
     gawk
     zstd
     gnupg
+    pinentry-curses
 
     # nix related
     #
@@ -74,5 +75,12 @@
   ];
 
   programs.direnv.enable = true;
+
+  # GPG 相关配置
+  # 启用 GPG Agent 并使用新的选项指定 pinentry 包
+  programs.gnupg.agent = {
+    enable = true;
+    pinentryPackage = pkgs.pinentry-curses;
+  };
 
 }
