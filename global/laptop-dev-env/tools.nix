@@ -24,6 +24,7 @@
     zip
     xz
     unzip
+    unrar
     p7zip
 
     # utils
