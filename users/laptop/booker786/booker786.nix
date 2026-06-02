@@ -30,8 +30,13 @@
   programs.git = {
     enable = true;
     lfs.enable = true;
-    userName = "Shelton786";
-    userEmail = "1398473754@qq.com";
+    
+    # NixOS 26.05 / Home Manager 26.05 新语法：
+    # 将 userName 和 userEmail 移入 settings.user 中
+    settings.user = {
+      name = "Shelton786";
+      email = "1398473754@qq.com";
+    };
   };
 
   # 通过 home.packages 安装一些常用的软件
