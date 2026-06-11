@@ -1,10 +1,9 @@
 {
-  # 启用 KDE Connect 服务
-  services.kdeconnect = {
+  # 这是 Home Manager 的用户级选项
+  programs.kdeconnect = {
     enable = true;
-    indicator = true; # 在 Plasma 系统托盘显示图标
   };
-    
+  
   # 允许 KDE Connect 通过防火墙
   networking.firewall = {
     allowedTCPPortRanges = [ { from = 1714; to = 1764; } ];

@@ -33,7 +33,7 @@
             ./library/services/flatpak/desktop-env
 
             # kde connect
-            ./kdeconnect/default.nix
+            ./library/services/kdeconnect
 
             #virtualbox
             ./library/services/virtualbox
