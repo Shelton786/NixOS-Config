@@ -32,7 +32,13 @@
             nix-flatpak.nixosModules.nix-flatpak
             ./library/services/flatpak/desktop-env
 
+            # kde connect
+            ./kdeconnect/default.nix
+
+            #virtualbox
             ./library/services/virtualbox
+
+            # docker
             ./library/services/docker
 
             # user env
