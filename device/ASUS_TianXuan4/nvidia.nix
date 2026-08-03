@@ -20,7 +20,7 @@
     # Dynamic power management (nvidia-powerd). Required by supergfxd to
     # avoid the "nvidia-powerd.service not found" warning and enable
     # on-demand GPU power scaling on Ada+ GPUs.
-    dynamicPowerManagement.enable = true;
+    dynamicBoost.enable = true;
 
     # Use the NVidia open source kernel module (not to be confused with the
     # independent third-party "nouveau" open source driver).
