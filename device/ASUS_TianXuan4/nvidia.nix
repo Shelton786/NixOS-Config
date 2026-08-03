@@ -1,6 +1,6 @@
-{ pkgs, config, ... }:
+{ config, ... }:
 {
-  services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
+  services.xserver.videoDrivers = [ "nvidia" ];
   
   hardware.nvidia = {
 
