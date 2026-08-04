@@ -37,16 +37,16 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
   
-    fileSystems."/run/media/booker786/OS" = {
-    device = "/dev/nvme0n1p3";
-    fsType = "ntfs-3g";
-    options = [ "defaults" "noatime" "rw" "locale=zh_CN.UTF-8"];
+  fileSystems."/mnt/OS" = {
+    device = "/dev/disk/by-uuid/748877A98877690E";
+    fsType = "ntfs3";
+    options = [ "defaults" "noatime" "nofail" "uid=1000" "gid=100" "iocharset=utf8" ];
   };
 
-  fileSystems."/run/media/booker786/书儿的移动数据库" = {
-    device = "/dev/nvme1n1p3";
-    fsType = "ntfs-3g";
-    options = [ "defaults" "noatime" "rw" "locale=zh_CN.UTF-8"];
+  fileSystems."/mnt/书儿的移动数据库" = {
+    device = "/dev/disk/by-uuid/5E70320F2F1B9CF7";
+    fsType = "ntfs3";
+    options = [ "defaults" "noatime" "nofail" "uid=1000" "gid=100" "iocharset=utf8" ];
   };
 
   swapDevices =
