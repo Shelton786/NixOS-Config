@@ -41,6 +41,9 @@
             # docker
             ./library/services/docker
 
+            # steam
+            ./library/services/steam
+
             # user env
             home-manager.nixosModules.home-manager
             ./library/home-manager
