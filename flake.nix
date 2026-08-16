@@ -44,6 +44,9 @@
             # steam
             ./library/services/steam
 
+            # lutris
+            ./library/services/lutris
+
             # user env
             home-manager.nixosModules.home-manager
             ./library/home-manager
