@@ -10,6 +10,5 @@
     "com.tencent.WeChat"
     "com.tencent.wemeet"
     "org.libreoffice.LibreOffice"
-    "ai.opencode.opencode"
   ];
 }
