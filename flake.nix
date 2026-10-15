@@ -47,6 +47,9 @@
             # lutris
             ./library/services/lutris
 
+            # linyaps
+            ./library/services/linyaps
+
             # user env
             home-manager.nixosModules.home-manager
             ./library/home-manager
