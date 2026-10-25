@@ -39,6 +39,15 @@
     };
   };
 
+  # EasyEffects 音效处理（对标 Windows 杜比 APO）
+  # 声明式预设：rebuild 后自动生效，重装系统不丢
+  services.easyeffects = {
+    enable = true;
+    preset = "game";
+  };
+
+  xdg.configFile."easyeffects/output/game.json".source = ./easyeffects/game.json;
+
   # 通过 home.packages 安装一些常用的软件
   # 这些软件将仅在当前用户下可用，不会影响系统级别的配置
   # 建议将所有 GUI 软件，以及与 OS 关系不大的 CLI 软件，都通过 home.packages 安装
